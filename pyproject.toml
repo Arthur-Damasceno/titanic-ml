@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "titanic-ml"
+version = "0.1.0"
+description = "A script that trains a decision tree algorithm with the titanic dataset."
+repository = "https://github.com/Arthur-Damasceno/titanic-ml"
+authors = ["Arthur Damasceno <damascenoarthur653@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+polars = "^0.20.23"
+scikit-learn = "^1.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
